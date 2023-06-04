@@ -1,0 +1,36 @@
+body{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: black;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 168px;
+}
+
+a > svg{
+    fill: rgba(229, 9, 20, 1);
+    height: 40px;
+}
+
+a.netflix-logo{
+    display: block;
+}
+
+.right-side{
+    text-align: right;
+}
+
+.languages{
+    text-align: center;
+}
+
+a.sign-in{
+    display:inline-block;
+    background-color: rgb(229,9,20);
+    color: rgb(255,255,255);
+    text-decoration: none;
+    padding: 4px 16px;
+    border-radius: 0.25rem;
+}
